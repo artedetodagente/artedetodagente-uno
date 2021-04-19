@@ -16,6 +16,7 @@ import PageGaleria from './views/PageGaleria'
 import PageAgenda from './views/PageAgenda'
 import ScrollToTop from './util/ScrollToTop'
 import PageProfessor from './views/PageProfessor'
+import PageProject from './views/PageProject'
 
 function App() {
   return (
@@ -46,6 +47,9 @@ function App() {
           </Route>
           <Route path="/imprensa">
             <PageImprensa />
+          </Route>
+          <Route exact path="/projeto">
+            <PageProject />
           </Route>
           <Route exact path="/:id">
             <Page />
