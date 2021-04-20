@@ -24,11 +24,11 @@ function Page() {
 
   return (
     <>
-      <Header title={page.page_title} url={`/${id}`} />
+      <Header title={page ? page.page_title : ''} url={`/${id}`} />
       <main className="main-content page-content">
-        {compiler(page.page_text)}
+        {compiler(page ? page.page_text : '')}
         <div className="page-zones">
-        {page.Content.map( (component,i) => <DynamicPage key={i} data={component}/>)}
+        {page ? page.Content.map( (component,i) => <DynamicPage key={i} data={component}/>) : ''}
         </div>
         {id === 'congresso-internacional' ? <Palestrantes /> : null}
       </main>
