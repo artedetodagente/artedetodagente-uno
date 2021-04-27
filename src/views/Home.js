@@ -22,7 +22,7 @@ function Home() {
         <HomeNews />
         {/* <HomeLandingENAC /> */}
         <HomeVideoEspecial />
-        {/* <HomeCursos /> */}
+        <HomeCursos />
         <HomeVideos id="apresentacoes" label="Acessar todas as apresentações" />
         <HomeVideos id="palestras" label="Acessar todas as palestras" />
         <HomeProjetos id="oficinas-de-regencia" />
