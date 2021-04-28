@@ -2,7 +2,7 @@ import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 
 function HomeCursos(props) {
-  const formUrl = `https://umnovoolhar.art.br/noticias/Um-Novo-Olhar-abre-inscricoes-para-o-curso-Musica-+-Educacao-+-Acessibilidade-para-professores`
+  const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSdXVaN3qYt78FPGj_5334VGXHz4kKicZctgRm7xkwWSQVHkIA/viewform`
 
   return (
     <section id="cursos" className="base cursos">
@@ -29,7 +29,7 @@ function HomeCursos(props) {
           >
             Faça sua inscrição
           </a>
-          &nbsp;<Link className="link-box" to="/noticias/Inscricoes-para-nosso-segundo-curso!">Saiba mais</Link>
+          &nbsp;<Link className="link-box" to="/noticias/Um-Novo-Olhar-abre-inscricoes-para-o-curso-Musica-+-Educacao-+-Acessibilidade-para-professores">Saiba mais</Link>
         </div>
       </div>
     </section>
