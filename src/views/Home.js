@@ -12,6 +12,7 @@ import HomeNews from './HomeNews'
 import HomeVideoEspecial from './HomeVideoEspecial'
 import HomeEventos from './HomeEventos'
 import HomeBanner from './HomeBanner'
+import FormNewsletter from '../components/FormNewsletter'
 
 function Home() {
   
@@ -21,6 +22,7 @@ function Home() {
       <main className="main-content home-content">
         <HomeNews />
         {/* <HomeLandingENAC /> */}
+        <FormNewsletter />
         <HomeVideoEspecial />
         <HomeCursos />
         <HomeVideos id="apresentacoes" label="Acessar todas as apresentações" />
