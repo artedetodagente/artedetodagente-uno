@@ -13,8 +13,14 @@ import HomeVideoEspecial from './HomeVideoEspecial'
 import HomeEventos from './HomeEventos'
 import HomeBanner from './HomeBanner'
 import FormNewsletter from '../components/FormNewsletter'
+import api from '../services/api'
 
 function Home() {
+  async function sendEmail(e, data) {
+    e.preventDefault();
+    const res = await api.post('/email', data);
+    console.log(res);
+  }
   
   return (
     <>
@@ -22,7 +28,7 @@ function Home() {
       <main className="main-content home-content">
         <HomeNews />
         {/* <HomeLandingENAC /> */}
-        <FormNewsletter />
+        <FormNewsletter submit={sendEmail} />
         <HomeVideoEspecial />
         <HomeCursos />
         <HomeVideos id="apresentacoes" label="Acessar todas as apresentações" />

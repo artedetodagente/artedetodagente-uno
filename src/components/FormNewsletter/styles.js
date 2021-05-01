@@ -18,7 +18,7 @@ export const Title = styled.h1`
   text-align: center;
 `;
 
-export const Form = styled.section`
+export const Form = styled.form`
   flex: 1;
   display: flex;
   margin-top: 35px;
