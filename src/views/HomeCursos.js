@@ -9,7 +9,7 @@ function HomeCursos(props) {
       <div className="title-box divider">
         <h2>
           <Link to="/#cursos">
-            Artes Integradas + Educação + Acessibilidade (2ª Turma)
+            Artes Visuais + Educação + Acessibilidade + Decolonialismo (2ª Turma)
           </Link>
         </h2>
       </div>
