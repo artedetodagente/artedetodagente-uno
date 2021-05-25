@@ -34,7 +34,7 @@ function HomeCursos(props) {
             Faça sua inscrição
           </a>
           &nbsp;
-          <Link className="link-box" to="/noticias/Arte-com-igualdade-para-todos">
+          <Link className="link-box" to="/noticias/Segunda-turma-para-o-curso-Artes-Visuais-+-Educacao-+-Acessibilidade-+-Decolonialismo-abre-inscricoes">
             Saiba mais
           </Link>
         </div>
