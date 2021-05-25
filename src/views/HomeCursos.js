@@ -34,7 +34,7 @@ function HomeCursos(props) {
             Faça sua inscrição
           </a>
           &nbsp;
-          <Link className="link-box" to="/noticias/Segunda-turma-para-o-curso-Artes-Visuais-+-Educacao-+-Acessibilidade-+-Decolonialismo-abre-inscricoes">
+          <Link className="link-box" to="/noticias/Artes-Visuais-+-Educacao-+-Acessibilidade-+-Decolonialismo-(2a-Turma)">
             Saiba mais
           </Link>
         </div>
