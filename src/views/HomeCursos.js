@@ -32,6 +32,7 @@ function HomeCursos(props) {
           >
             Faça sua inscrição
           </a>
+          
           &nbsp;
           <Link className="link-box" to="/noticias/Abertas-as-inscricoes-para-a-2a-turma-do-curso-Musica-+-Educacao-+-Acessibilidade">
             Saiba mais
