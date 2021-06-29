@@ -18,7 +18,6 @@ function HomeCursos(props) {
           <p>
             Estão abertas até o dia 12/7, aqui no site, as inscrições para a segunda turma do curso Música + Educação + Acessibilidade, do projeto Um Novo Olhar. A coordenação de conteúdo é da professora Thelma Alvares, que divide as aulas, assíncronas, com os professores  Viviane Louro e Fernando Guilhon. O curso será ministrado no Ambiente Virtual de Aprendizagem da UFRJ. Haverá emissão de certificado, com carga horária de 48 horas, para os cursistas que obtiverem aprovação por meio de uma avaliação sobre o conteúdo apresentado. Saiba mais sobre o curso aqui:
           </p>
-          <p>&nbsp;</p>
           <p>
             O curso foi desenvolvido por professores de música, mas não tem como proposta a educação musical. Ele foi estruturado para professores que não são músicos – a partir do entendimento de que a música pode contribuir com o aprimoramento do ensino regular. 
           </p>
