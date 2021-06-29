@@ -2,7 +2,7 @@ import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 
 function HomeCursos(props) {
-  const formUrl = `https://docs.google.com/document/d/1R0IUKdM5N3Xo2P1pzoo06wDOVMcu3lAI-ssuKOFj2go/edit?usp=sharing`
+  const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSdXVaN3qYt78FPGj_5334VGXHz4kKicZctgRm7xkwWSQVHkIA/viewform`
 
   return (
     <section id="cursos" className="base cursos">
