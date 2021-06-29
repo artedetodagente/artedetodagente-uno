@@ -180,10 +180,6 @@ function InfoBox(props) {
       fetchData()
   },[id])
 
-
-
-  console.log(image);
-
   return (
     <div className="info-box">
       <div

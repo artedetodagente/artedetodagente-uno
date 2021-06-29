@@ -2,28 +2,28 @@ import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 
 function HomeCursos(props) {
-  const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLScnIJQvQfIHnnexM9hy2qlVFQaMm7wNCaA0yX9ajL5fSi30eg/viewform`
+  const formUrl = `https://docs.google.com/document/d/1R0IUKdM5N3Xo2P1pzoo06wDOVMcu3lAI-ssuKOFj2go/edit?usp=sharing`
 
   return (
     <section id="cursos" className="base cursos">
       <div className="title-box divider">
         <h2>
           <Link to="/#cursos">
-            Artes Visuais + Educação + Acessibilidade + Decolonialismo (2ª Turma)
+            Curso Música + Educação + Acessibilidade
           </Link>
         </h2>
       </div>
       <div className="inside-content">
         <div>
           <p>
-            Estão abertas as inscrições para a segunda turma do curso Artes Visuais + Educação + Acessibilidade + Decolonialismo, curso de capacitação para educadores oferecido pelo projeto Um Novo Olhar e que faz parte da série de cursos Arte/Educação + Acessibilidade + Inclusão.
+            Estão abertas até o dia 12/7, aqui no site, as inscrições para a segunda turma do curso Música + Educação + Acessibilidade, do projeto Um Novo Olhar. A coordenação de conteúdo é da professora Thelma Alvares, que divide as aulas, assíncronas, com os professores  Viviane Louro e Fernando Guilhon. O curso será ministrado no Ambiente Virtual de Aprendizagem da UFRJ. Haverá emissão de certificado, com carga horária de 48 horas, para os cursistas que obtiverem aprovação por meio de uma avaliação sobre o conteúdo apresentado. Saiba mais sobre o curso aqui:
           </p>
           <p>&nbsp;</p>
           <p>
-            O Curso Artes Visuais + Educação + Acessibilidade + Decolonialismo fomenta em seis módulos as relações entre a Acessibilidade Cultural e o Ensino das Artes Visuais no Brasil a partir de uma perspectiva não linear e não hegemônica. São abordadas questões como formação de públicos, acesso aos bens culturais, espaços de criação e protagonismo, possibilitando uma abordagem acessível e abrangente das concepções de educação formal, não formal e suas implicações no ensino das artes visuais na perspectiva decolonial, com foco nas implicações políticas da luta para a consolidação do ensino da arte na educação básica, valorização da arte como área de conhecimento e ampliação da acessibilidade cultural no Brasil.
+            O curso foi desenvolvido por professores de música, mas não tem como proposta a educação musical. Ele foi estruturado para professores que não são músicos – a partir do entendimento de que a música pode contribuir com o aprimoramento do ensino regular. 
           </p>
           <p>
-            O curso será realizado através do Ambiente Virtual de Aprendizagem da UFRJ, terá início em 14 de junho e poderá ser concluído até 08 de agosto de 2021. As aulas são assíncronas e haverá emissão de certificado, com carga horária de 48h, para os cursistas que obtiverem aprovação através de avaliação sobre o conteúdo apresentado.
+            Na série, será discutida a relação profunda do homem com a música e, ainda, de que modo essa forma de expressão artística influencia no desenvolvimento humano. Os vídeos abordam temas como: o trabalho direcionado a pessoas deficiência; a música relacionada à inclusão desses cidadãos; as adaptações que facilitam o desenvolvimento dessa atividade; e o trabalho musical direcionado a pessoas com diferentes deficiências: intelectual, visual, auditiva, surdez e transtorno do espectro autista.
           </p>
           <a 
             href={formUrl} 
@@ -34,7 +34,7 @@ function HomeCursos(props) {
             Faça sua inscrição
           </a>
           &nbsp;
-          <Link className="link-box" to="/noticias/Artes-Visuais-+-Educacao-+-Acessibilidade-+-Decolonialismo-(2a-Turma)">
+          <Link className="link-box" to="/noticias/Abertas-as-inscricoes-para-a-2a-turma-do-curso-Musica-+-Educacao-+-Acessibilidade">
             Saiba mais
           </Link>
         </div>
