@@ -14,6 +14,7 @@ import HomeEventos from './HomeEventos'
 import HomeBanner from './HomeBanner'
 import FormNewsletter from '../components/FormNewsletter'
 import api from '../services/api'
+import HomeAcessibilifolia from './HomeAcessibilifolia'
 
 function Home() {
   async function sendEmail(e, data) {
@@ -31,6 +32,7 @@ function Home() {
         <FormNewsletter submit={sendEmail} />
         <HomeVideoEspecial />
         <HomeCursos />
+        <HomeAcessibilifolia />
         <HomeVideos id="apresentacoes" label="Acessar todas as apresentações" />
         <HomeVideos id="palestras" label="Acessar todas as palestras" />
         <HomeProjetos id="oficinas-de-regencia" />
