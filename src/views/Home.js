@@ -15,6 +15,7 @@ import HomeBanner from './HomeBanner'
 import FormNewsletter from '../components/FormNewsletter'
 import api from '../services/api'
 import HomeAcessibilifolia from './HomeAcessibilifolia'
+import HomeFunarte from './HomeFunarte'
 
 function Home() {
   async function sendEmail(e, data) {
@@ -33,6 +34,7 @@ function Home() {
         <HomeVideoEspecial />
         <HomeCursos />
         <HomeAcessibilifolia />
+        <HomeFunarte />
         <HomeVideos id="apresentacoes" label="Acessar todas as apresentações" />
         <HomeVideos id="palestras" label="Acessar todas as palestras" />
         <HomeProjetos id="oficinas-de-regencia" />
