@@ -9,7 +9,7 @@ function HomeFunarte(props) {
       <div className="title-box divider" style={{ marginRight: 0 }}>
         <h2>
           <Link to="/#funarte">
-            Funarte e UFRJ lançam Festival Arte de Toda Gente
+            Oficinas de Canto Coral - Festival Arte de Toda Gente
           </Link>
         </h2>
       </div>
