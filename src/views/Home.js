@@ -6,6 +6,7 @@ import Footer from './Footer'
 
 import HomeLandingENAC from './HomeLandingENAC'
 import HomeCursos from './HomeCursos'
+import HomeEncontro from './HomeEncontro'
 import HomeVideos from './HomeVideos'
 import HomeProjetos from './HomeProjetos'
 import HomeNews from './HomeNews'
@@ -32,6 +33,7 @@ function Home() {
         {/* <HomeLandingENAC /> */}
         <FormNewsletter submit={sendEmail} />
         <HomeVideoEspecial />
+        <HomeEncontro />
         <HomeCursos />
         <HomeAcessibilifolia />
         <HomeFunarte />
