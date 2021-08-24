@@ -19,8 +19,6 @@ function Menu(props) {
       <li><Link onBlur={props.onblur} onFocus={props.onfocus} to="/videos/apresentacoes">Apresentações</Link></li>
       <li><Link onBlur={props.onblur} onFocus={props.onfocus} to="/videos/palestras">Palestras</Link></li>
       <li><Link onBlur={props.onblur} onFocus={props.onfocus} smooth scroll={el => scroll(el,size.width)} to="/#cursos">Cursos</Link></li>
-      <li><Link onBlur={props.onblur} onFocus={props.onfocus} smooth scroll={el => scroll(el,size.width)} to="/#acessibilifolia">Acessibilifolia</Link></li>
-      <li><Link onBlur={props.onblur} onFocus={props.onfocus} smooth scroll={el => scroll(el,size.width)} to="/#funarte">Funarte</Link></li>
       <li><Link onBlur={props.onblur} onFocus={props.onfocus} to="/projetos/Oficinas-de-Regencia">Oficinas de Regência</Link></li>
       <li><Link onBlur={props.onblur} onFocus={props.onfocus} to="/projetos/Repertorio-Coral">Repertório Coral</Link></li>
       {/* <li><Link to="/publicacoes">Publicações</Link></li> */}

@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Block from './dynamic/Block'
 import Cover from './dynamic/Cover'
 import Embed from './dynamic/Embed'

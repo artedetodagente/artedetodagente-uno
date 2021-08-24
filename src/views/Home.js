@@ -1,22 +1,22 @@
 import React from 'react'
-// import store from '../store'
-
-import Header from './Header'
-import Footer from './Footer'
-
-import HomeLandingENAC from './HomeLandingENAC'
-import HomeCursos from './HomeCursos'
-import HomeEncontro from './HomeEncontro'
-import HomeVideos from './HomeVideos'
-import HomeProjetos from './HomeProjetos'
-import HomeNews from './HomeNews'
-import HomeVideoEspecial from './HomeVideoEspecial'
-import HomeEventos from './HomeEventos'
-import HomeBanner from './HomeBanner'
+// import HomeBanner from './HomeBanner'
 import FormNewsletter from '../components/FormNewsletter'
 import api from '../services/api'
-import HomeAcessibilifolia from './HomeAcessibilifolia'
-import HomeFunarte from './HomeFunarte'
+import Footer from './Footer'
+// import store from '../store'
+import Header from './Header'
+// import HomeAcessibilifolia from './HomeAcessibilifolia'
+// import HomeFunarte from './HomeFunarte'
+import HomeCursoGestao from './HomeCursoGestao'
+// import HomeLandingENAC from './HomeLandingENAC'
+import HomeCursos from './HomeCursos'
+import HomeEventos from './HomeEventos'
+import HomeNews from './HomeNews'
+import HomeProjetos from './HomeProjetos'
+import HomeVideoEspecial from './HomeVideoEspecial'
+// import HomeEncontro from './HomeEncontro'
+import HomeVideos from './HomeVideos'
+
 
 function Home() {
   async function sendEmail(e, data) {
@@ -34,6 +34,7 @@ function Home() {
         <FormNewsletter submit={sendEmail} />
         <HomeVideoEspecial />
         {/* <HomeEncontro /> */}
+        <HomeCursoGestao />
         <HomeCursos />
         {/* <HomeAcessibilifolia /> */}
         {/* <HomeFunarte /> */}
