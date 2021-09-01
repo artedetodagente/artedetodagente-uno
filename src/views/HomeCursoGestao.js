@@ -19,12 +19,10 @@ function HomeCursoGestao(props) {
             Já estão abertas as inscrições para o Curso de Gestão e Produção Cultural Acessível. Promovido pelo projeto Um Novo Olhar, como parte da programação do Festival Arte de Toda Gente, abordará a acessibilidade cultural para pessoas com deficiência, com foco na gestão e produção cultural acessível para projetos e ambientes culturais e tem como público-alvo produtores e gestores culturais.  Composto de seis aulas online, com duas horas de duração cada uma, o curso se inicia no dia 2 de setembro, às 10h, e será realizado ao vivo por meio da plataforma Zoom. Para participar, é necessário fazer inscrição prévia, sujeita a confirmação. Estão disponíveis 50 vagas e, ao final, será emitido um certificado para os alunos que estiverem presentes a, no mínimo, quatro aulas.
           </p>
           <a 
-            href={formUrl} 
-            className="link-box" 
-            rel="noopener noreferrer" 
-            target="_blank"
+            href='#' 
+            className="link-box pointer-events-none"
           >
-            Faça sua inscrição
+            Inscrições Esgotadas
           </a>
         </div>
       </div>
