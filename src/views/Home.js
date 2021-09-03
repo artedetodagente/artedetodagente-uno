@@ -34,8 +34,8 @@ function Home() {
         <FormNewsletter submit={sendEmail} />
         <HomeVideoEspecial />
         {/* <HomeEncontro /> */}
-        <HomeCursoGestao />
-        <HomeCursos />
+        {/* <HomeCursoGestao /> */}
+        {/* <HomeCursos /> */}
         {/* <HomeAcessibilifolia /> */}
         {/* <HomeFunarte /> */}
         <HomeVideos id="apresentacoes" label="Acessar todas as apresentações" />
