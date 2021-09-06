@@ -20,7 +20,7 @@ function HomeWorkshop(props) {
           </p>
           <a 
             href='https://docs.google.com/forms/u/3/d/1-3EkQJGRakKSgrGiupi7zk_xzUzbXrum_82l8JVpnIc/edit' 
-            className="link-box pointer-events-none"
+            className="link-box"
           >
             Inscrição
           </a>
