@@ -5,7 +5,7 @@ import useWindowSize from '../util/useWindowSize'
 function Menu(props) {
   
   const size = useWindowSize()
-
+  
   function scroll (el,w) {
     const offset = w > 1024 ? 150 : 95
     window.scrollTo({ top: el.offsetTop  - offset, left: 0, behavior: 'smooth' })

@@ -33,6 +33,7 @@ function Home() {
         {/* <HomeLandingENAC /> */}
         <FormNewsletter submit={sendEmail} />
         <HomeVideoEspecial />
+        <HomeWorkshop />
         {/* <HomeEncontro /> */}
         {/* <HomeCursoGestao /> */}
         {/* <HomeCursos /> */}
