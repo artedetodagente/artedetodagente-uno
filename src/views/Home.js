@@ -16,6 +16,7 @@ import HomeProjetos from './HomeProjetos'
 import HomeVideoEspecial from './HomeVideoEspecial'
 // import HomeEncontro from './HomeEncontro'
 import HomeVideos from './HomeVideos'
+import HomeWorkshop from './HomeWorkshop'
 
 
 function Home() {
