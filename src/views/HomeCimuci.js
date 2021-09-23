@@ -21,9 +21,6 @@ function HomeCimuci(props) {
           <p>
             O Evento tem como principais objetivos, incentivar as reflexões sobre os caminhos plurais da atividade coral, voltada para o público infantojuvenil; dar a oportunidade de divulgação de trabalhos e pesquisas que vem sendo desenvolvidas; ampliar o intercâmbio entre as diferentes instituições que desenvolvem trabalhos voltados para esse público, em âmbito nacional e internacional. Nesta segunda edição estão previstas palestras, mesas redondas, oficinas e workshop, que contarão com a presença de destacados profissionais da música coral nacional e internacional, além de rica troca de experiências e saberes a partir das apresentações de trabalhos científicos, resultantes de pesquisas concluídas ou em andamento e de relatos de experiências resultante de atuação de professores, regentes, preparadores vocais, compositores e arranjadores para coros infantojuvenis.
           </p>
-          <p>
-            Link para inscrição:
-          </p>
           <a 
             href={formUrl} 
             className="link-box" 
@@ -32,11 +29,6 @@ function HomeCimuci(props) {
           >
             Faça sua inscrição
           </a>
-          
-          &nbsp;
-          <Link className="link-box" to="/noticias/Estao-abertas-(ate-98)-as-inscricoes-para-o-curso-Danca-+-Educacao-+-Acessibilidade">
-            Saiba mais
-          </Link>
         </div>
       </div>
     </section>
