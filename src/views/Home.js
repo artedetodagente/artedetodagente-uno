@@ -5,6 +5,7 @@ import api from '../services/api'
 import Footer from './Footer'
 // import store from '../store'
 import Header from './Header'
+import HomeCimuci from './HomeCimuci'
 // import HomeAcessibilifolia from './HomeAcessibilifolia'
 // import HomeFunarte from './HomeFunarte'
 import HomeCursoGestao from './HomeCursoGestao'
@@ -34,6 +35,7 @@ function Home() {
         {/* <HomeLandingENAC /> */}
         <FormNewsletter submit={sendEmail} />
         <HomeVideoEspecial />
+        <HomeCimuci />
         <HomeWorkshop />
         {/* <HomeEncontro /> */}
         {/* <HomeCursoGestao /> */}
