@@ -14,7 +14,7 @@ function PageGaleria(){
     const [viewed, setViewed] = useState(0);
 
     useEffect(() => {
-        api.get(`galerias?_start=${viewed}&_limit=12&_sort=created_at:desc`)
+        api.get(`galerias?_start=${viewed}&_limit=100&_sort=created_at:desc`)
           .then(({data}) => setMidias([...midias, ...data]));
       }, [viewed]);
 
