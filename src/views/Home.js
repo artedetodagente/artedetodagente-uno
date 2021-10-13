@@ -6,7 +6,7 @@ import Footer from './Footer'
 // import store from '../store'
 import Header from './Header'
 import HomeCimuci from './HomeCimuci'
-// import HomeAcessibilifolia from './HomeAcessibilifolia'
+import HomeAcessibilifolia from './HomeAcessibilifolia'
 // import HomeFunarte from './HomeFunarte'
 import HomeCursoGestao from './HomeCursoGestao'
 // import HomeLandingENAC from './HomeLandingENAC'
@@ -18,6 +18,7 @@ import HomeVideoEspecial from './HomeVideoEspecial'
 // import HomeEncontro from './HomeEncontro'
 import HomeVideos from './HomeVideos'
 import HomeWorkshop from './HomeWorkshop'
+import HomeLivro from './HomeLivro'
 
 
 function Home() {
@@ -36,6 +37,7 @@ function Home() {
         <FormNewsletter submit={sendEmail} />
         <HomeVideoEspecial />
         <HomeCimuci />
+        <HomeLivro />
         <HomeWorkshop />
         {/* <HomeEncontro /> */}
         {/* <HomeCursoGestao /> */}
