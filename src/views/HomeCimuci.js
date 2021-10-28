@@ -18,14 +18,16 @@ function HomeCimuci(props) {
           <p>
           O curso Dança + Educação + Acessibilidade aborda as relações entre o campo da dança, da dança-educação e da acessibilidade cultural e discute tópicos como as linguagens artísticas e as forças históricas e políticas que acompanharam esta arte em sua trajetória no ocidente, incluindo uma apresentação e experimentações relacionadas ao tema. A intenção é fomentar reflexões e fornecer ao professor maior capacitação para trabalhar com elementos da dança na diversidade. As inscrições são gratuitas e estarão abertas aqui no site de 28/10 a 10/11 próximos. O curso será realizado no período de 16/11 a 16 de janeiro de 2022.
           </p>
-          <a 
-            href={formUrl} 
-            className="link-box" 
-            rel="noopener noreferrer" 
-            target="_blank"
-          >
-            Faça sua inscrição
-          </a>
+          <div className="mt-10">
+            <a 
+              href={formUrl} 
+              className="link-box" 
+              rel="noopener noreferrer" 
+              target="_blank"
+            >
+              Faça sua inscrição
+            </a>
+          </div>
         </div>
       </div>
     </section>
