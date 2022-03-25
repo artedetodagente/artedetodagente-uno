@@ -27,7 +27,7 @@ function Home() {
     const res = await api.post('/email', data);
     console.log(res);
   }
-  
+
   return (
     <>
       <Header />
@@ -36,13 +36,13 @@ function Home() {
         {/* <HomeLandingENAC /> */}
         <FormNewsletter submit={sendEmail} />
         <HomeVideoEspecial />
-        <HomeCimuci />
+        {/* <HomeCimuci /> */}
+        <HomeAcessibilifolia />
         <HomeLivro />
-        <HomeWorkshop />
+        {/* <HomeWorkshop /> */}
         {/* <HomeEncontro /> */}
         {/* <HomeCursoGestao /> */}
         {/* <HomeCursos /> */}
-        {/* <HomeAcessibilifolia /> */}
         {/* <HomeFunarte /> */}
         <HomeVideos id="apresentacoes" label="Acessar todas as apresentações" />
         <HomeVideos id="palestras" label="Acessar todas as palestras" />

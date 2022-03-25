@@ -1,20 +1,18 @@
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 
-function HomeAcessibilifolia(props) {
-  const formUrl = `https://docs.google.com/forms/d/1UZZ1sTpgKVlUGvvP_QohEeveE24NQYvRXBWtTB0YZsc/viewform?edit_requested=true`
-
-  function downloadEdital() {
-    const link = document.createElement('a');
-    link.href = require('../assets/docs/Chamada Acessibilifolia_Projeto Um Novo Olhar.pdf');
-    link.setAttribute('download', 'Chamada Acessibilifolia_Projeto Um Novo Olhar.pdf');
-    document.body.appendChild(link);
-    link.click();
-    link.parentNode.removeChild(link);
-  }
+function HomeAcessibilifolia() {
+  // function downloadEdital() {
+  //   const link = document.createElement('a');
+  //   link.href = require('../assets/docs/Chamada Acessibilifolia_Projeto Um Novo Olhar.pdf');
+  //   link.setAttribute('download', 'Chamada Acessibilifolia_Projeto Um Novo Olhar.pdf');
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   link.parentNode.removeChild(link);
+  // }
 
   return (
-    <section id="acessibilifolia" className="base cursos" style={{ backgroundColor: 'rgb(253, 242, 4)' }}>
+    <section id="acessibilifolia" className="base cursos" style={{ backgroundImage: `url(${require('../assets/images/bg-acess.png')})`, backgroundPosition: 'left 95px', backgroundSize: '45%', backgroundRepeat: 'no-repeat' }}>
       <div className="title-box divider">
         <h2>
           <Link to="/#acessibilifolia">
@@ -22,27 +20,44 @@ function HomeAcessibilifolia(props) {
           </Link>
         </h2>
       </div>
-      <div className="grid lg:grid-cols-2">
-        <figure className="hidden lg:block">
-          <img src={require('../assets/images/Acessibilifolia.png')} />
-        </figure>
-        <div>
+      <div className="grid lg:grid-cols-5">
+        <div className="col-span-3" style={{ paddingTop: '25%' }}>
+          <p>
+            O programa Acessibilifolia tem como objetivo fomentar a acessibilidade e a inclusão de pessoas com deficiência nas festas populares que compõem o patrimônio cultural e imaterial do Brasil, como blocos de carnaval, grupos de frevo, boi e maracatu, entre outros. Para isso, gera conteúdo e direciona ações que buscam tornar nosso festejos populares mais democráticos e inclusivos – não só para as pessoas com deficiência, mas para todos que compartilham esses espaços, promovendo assim a convivência e a diversidade.
+          </p>
+        </div>
+        <div className="col-span-2 flex flex-col pl-8">
           <div>
-            <p>
-              Acessibilifolia: torne o seu vídeo acessível. Inscreva-se aqui
-              O programa Acessibilifolia convoca os realizadores das diferentes festas e manifestações da cultura popular para que contribuam na democratização do acesso à alegria, à festa e à brincadeira popular, compartilhando conteúdos artísticos e culturais com a população com deficiência no Brasil. Ao todo, serão selecionados 12 vídeos, em duas categorias, que ganharão legendagem para surdos e ensurdecidos, interpretação em Libras e audiodescrição, sendo depois publicados no site e nas redes sociais do Um Novo Olhar e no canal Arte de Toda Gente. As inscrições estão abertas até o dia 7/8/2021. Confira todos os detalhes desta chamada lendo o edital.
-            </p>
-            <button className="link-box" onClick={downloadEdital}>
-              Leia o Edital
-            </button>
-            &nbsp;
-            <a 
-              href={formUrl} 
-              className="link-box" 
-              rel="noopener noreferrer" 
+            <p className="mt-4">Faça sua inscrição:</p>
+          </div>
+          <div>
+            <a
+              href="https://forms.gle/YSNSN9hoRKiVoypSA"
+              className="link-box w-full mt-6 text-center"
+              rel="noopener noreferrer"
               target="_blank"
             >
-              Faça sua inscrição
+              Oficina de Adereços e Alegorias da Orquestra Voadora
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://forms.gle/wK8nA6qWDaj32CQN9"
+              className="link-box w-full mt-6 text-center"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Oficina de Instrumentos da Alegria
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://forms.gle/uknezgk4Ro5jR1nG8"
+              className="link-box w-full mt-6 text-center"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Oficina de Percussão e Iniciação Musical da Orquestra Voadora
             </a>
           </div>
         </div>
