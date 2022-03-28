@@ -11,7 +11,7 @@ function HomeVideoEspecial() {
         <div className="title-box divider">
           <h2>Cure o Mundo - Uma mensagem de esperança e cura</h2>
         </div>
-        <div className="embed-container w-full lg:w-1/2" style={{ paddingBottom: 0, height: 'calc(100vh/2)' }}>
+        <div className="embed-container w-full lg:w-1/2 pb-0" style={{ paddingBottom: 0, height: 'calc(100vh/2)' }}>
           <iframe
             title={vid}
             src={`https://www.youtube.com/embed/${vid}`}

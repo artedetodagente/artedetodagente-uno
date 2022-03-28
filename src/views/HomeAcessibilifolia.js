@@ -23,7 +23,7 @@ function HomeAcessibilifolia() {
       <div className="grid lg:grid-cols-5">
         <div className="col-span-3" style={{ paddingTop: '25%' }}>
           <p>
-            O programa Acessibilifolia tem como objetivo fomentar a acessibilidade e a inclusão de pessoas com deficiência nas festas populares que compõem o patrimônio cultural e imaterial do Brasil, como blocos de carnaval, grupos de frevo, boi e maracatu, entre outros. Para isso, gera conteúdo e direciona ações que buscam tornar nosso festejos populares mais democráticos e inclusivos – não só para as pessoas com deficiência, mas para todos que compartilham esses espaços, promovendo assim a convivência e a diversidade.
+            O Festival Acessibilifolia traz para o Teatro Cacilda Becker, no Rio de Janeiro, durante o mês de abril de 2022, uma programação presencial e gratuita, destinada a pessoas com e sem deficiência, e que inclui rodas de conversa, apresentações e oficinas que têm como foco discutir a acessibilidade no carnaval carioca. Todas as atividades do festival contam com acessibilidade física, interpretação em libras e mediação acessível, e as apresentações contarão também com audiodescrição. As inscrições para as oficinas já estão abertas e podem ser feitas aqui no site, por meio dos botões ao lado.
           </p>
         </div>
         <div className="col-span-2 flex flex-col pl-8">
