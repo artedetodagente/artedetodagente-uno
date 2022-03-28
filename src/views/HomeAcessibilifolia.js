@@ -16,7 +16,7 @@ function HomeAcessibilifolia() {
       <div className="title-box divider">
         <h2>
           <Link to="/#acessibilifolia">
-            Acessibilifolia
+            Festival Acessibilifolia
           </Link>
         </h2>
       </div>
@@ -47,7 +47,7 @@ function HomeAcessibilifolia() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              Oficina de Instrumentos da Alegria
+              Oficina de Instrumentos da Alegria - Embaixadores da Alegria
             </a>
           </div>
           <div>
