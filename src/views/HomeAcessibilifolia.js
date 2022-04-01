@@ -62,11 +62,10 @@ function HomeAcessibilifolia() {
           </div>
           <div>
             <a
-              href="https://umnovoolhar.art.br/nnoticias/Festival-Acessibilifolia-no-Rio"
+              href="https://umnovoolhar.art.br/noticias/Festival-Acessibilifolia-no-Rio"
               className="link-box link-box-featured w-full mt-6 text-center"
               rel="noopener noreferrer"
               target="_blank"
-              // style={{ backgroundColor: 'rgb(253, 242, 4)' }}
             >
               Veja toda Programação
             </a>
