@@ -9,15 +9,16 @@ import Header from './Header'
 import HomeAcessibilifolia from './HomeAcessibilifolia'
 // import HomeFunarte from './HomeFunarte'
 // import HomeCursoGestao from './HomeCursoGestao'
-// import HomeLandingENAC from './HomeLandingENAC'
 // import HomeCursos from './HomeCursos'
 import HomeEventos from './HomeEventos'
+// import HomeLandingENAC from './HomeLandingENAC'
 import HomeNews from './HomeNews'
 import HomeProjetos from './HomeProjetos'
 import HomeVideoEspecial from './HomeVideoEspecial'
 // import HomeEncontro from './HomeEncontro'
 import HomeVideos from './HomeVideos'
 // import HomeWorkshop from './HomeWorkshop'
+import HomeGestao from './HomeGestao'
 import HomeLivro from './HomeLivro'
 
 
@@ -36,6 +37,7 @@ function Home() {
         {/* <HomeLandingENAC /> */}
         <FormNewsletter submit={sendEmail} />
         <HomeVideoEspecial />
+        <HomeGestao />
         {/* <HomeCimuci /> */}
         <HomeAcessibilifolia />
         <HomeLivro />
