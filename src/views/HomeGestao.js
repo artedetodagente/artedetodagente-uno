@@ -7,14 +7,14 @@ function HomeGestao(props) {
       <div className="title-box divider">
         <h2>
           <Link to="/#gestao">
-            Curso de Gestão e Produção Cultural Acessível
+            Curso de Acessibilidade Cultural: Arte de Toda Gente - Macapá
           </Link>
         </h2>
       </div>
       <div className="inside-content">
         <div>
           <p>
-            Entre os dias 13 e 15 de junho de 2022, no SESC Amapá, em Macapá, o Um Novo Olhar promove o evento presencial Acessibilidade Cultural: Arte de Toda Gente, com cursos e oficinas com professores e especialistas em acessibilidade, abordando os temas Gestão e Produção Cultural Acessível, Audiodescrição em Contextos Culturais e Tecnologias Assistivas Aplicadas em Cena. As inscrições são gratuitas e podem ser feitas aqui.
+            Entre os dias 13 e 15 de junho de 2022, no SESC Araxá, em Macapá (AP), o Um Novo Olhar promove o evento presencial Acessibilidade Cultural: Arte de Toda Gente, com cursos e oficinas com professores e especialistas em acessibilidade, abordando os temas Gestão e Produção Cultural Acessível, Audiodescrição em Contextos Culturais e Tecnologias Assistivas Aplicadas em Cena. As inscrições são gratuitas e podem ser feitas aqui.
           </p>
           <a
             href='https://forms.gle/48WxB7boaysvozaq5'
