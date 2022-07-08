@@ -1,5 +1,5 @@
-import React from 'react'
-import { HashLink as Link } from 'react-router-hash-link'
+import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Footer(props) {
 
@@ -31,7 +31,7 @@ function Footer(props) {
           © 2020 Um Novo Olhar - todos os direitos reservados
         </div>
         <div className="col marcas">
-          <img src="/img/uno-marcas.png" alt="" />
+          <img src="/img/uno-marcas.svg" alt="" />
         </div>
       </div>
     </footer>
