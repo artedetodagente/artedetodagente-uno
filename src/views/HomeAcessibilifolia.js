@@ -12,7 +12,7 @@ function HomeAcessibilifolia() {
   // }
 
   return (
-    <section id="acessibilifolia" className="base cursos" style={{ backgroundImage: `url(${require('../assets/images/bg-acess.png')})`, backgroundPosition: 'left 95px', backgroundSize: '45%', backgroundRepeat: 'no-repeat' }}>
+    <section id="acessibilifolia" className="base cursos" style={{ backgroundImage: `url(${require('../assets/images/220708-CantoCoral-Banner-v2.jpg')})`, backgroundPosition: 'left 95px', backgroundSize: '45%', backgroundRepeat: 'no-repeat' }}>
       <div className="title-box divider">
         <h2>
           <Link to="/#acessibilifolia">

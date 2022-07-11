@@ -39,7 +39,7 @@ function Home() {
         <HomeVideoEspecial />
         <HomeGestao />
         {/* <HomeCimuci /> */}
-        <HomeAcessibilifolia />
+        {/* <HomeAcessibilifolia /> */}
         <HomeLivro />
         {/* <HomeWorkshop /> */}
         {/* <HomeEncontro /> */}
